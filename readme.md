@@ -40,7 +40,7 @@ $ x64 -warp foo.prg
 To run this in vice64, copy/paste the code below. The rem statements don't end up as a part of the code listing
 
 ```
-rem set screen colors, default text color, clear screen, move crsr down
+rem set screen colors
 
 10 poke53280,0: poke53281,0
 
