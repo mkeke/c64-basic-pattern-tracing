@@ -6,7 +6,7 @@ The program listing is below. To run it, simply copy/paste it into vice64. Or st
 
 August 23. 2020
 
-insert image
+![screenshot](img.png)
 
 
 ## useful commands
