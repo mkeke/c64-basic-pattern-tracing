@@ -1,10 +1,10 @@
 # C64 BASIC - pattern tracing
 
-Generating a random pattern of diagonal lines, and then coloring the lines that are connected.
+Generating a random pattern of diagonal lines, and then coloring the lines that are connected, using alternating colors.
 
-The program listing is below. To run it, simply copy/paste it into vice64. Or start the prg file. Warp mode is recomended, as the algorithm is tremendously slow! It was just an idea that popped into my head. :-)
+The program listing is below. To run it, simply copy/paste it into vice64. Or start the prg file. Warp mode is recommended, as the algorithm is tremendously ineffective! It was just an idea that popped into my head the other day. :-)
 
-August 23. 2020
+August 23 2020
 
 ![screenshot](img.png)
 
