@@ -9,19 +9,26 @@ August 23. 2020
 ![screenshot](img.png)
 
 
-## useful commands
+## Useful commands
 
 convert <foo.txt> to <foo.prg>
+```
 $ petcat -w2 -o foo.prg foo.txt
+```
+
 
 start vice with prg file loaded
+```
 $ x64 foo.prg
+```
 
 start vice with warp mode enabled and prg file loaded
+```
 $ x64 -warp foo.prg
+```
 
 
-## program listing
+## Program listing
 
 To run this in vice64, copy/paste the code below. The rem statements don't end up as a part of the code listing
 
