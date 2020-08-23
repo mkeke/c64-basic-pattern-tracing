@@ -2,8 +2,9 @@
 
 Generating a random pattern of diagonal lines, and then coloring the lines that are connected, using alternating colors.
 
-The program listing is below. To run it, simply copy/paste it into vice64. Or start the prg file. Warp mode is recommended, as the algorithm is tremendously ineffective! It was just an idea that popped into my head the other day. :-)
+The program listing is below. To run it, simply copy/paste it into vice64. Or start the prg file. Warp mode is recommended, as the algorithm is tremendously ineffective (sorry not sorry)! It was just an idea that popped into my head the other day. :-)
 
+Simen Lysebo,  
 August 23 2020
 
 ![screenshot](img_start.png)  
