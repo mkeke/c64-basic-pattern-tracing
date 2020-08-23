@@ -7,13 +7,13 @@ The program listing is below. To run it, simply copy/paste it into vice64. Or st
 August 23 2020
 
 ![screenshot](img_start.png)  
-drawing the pattern  
+Drawing the pattern  
   
 ![screenshot](img_progress.png)  
 Coloring the connections  
 
 ![screenshot](img_end.png)  
-Beautiful innit? :-D
+Done! Beautiful innit? :-D
 
 
 ## Useful commands
