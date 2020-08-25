@@ -73,6 +73,15 @@ rem set start color on the top left character
 200 let co=ca
 205 poke 55296,co
 
+rem set colors along the first line
+rem 200 poke 55296,ca
+rem 210 for x=1 to dx-1
+rem 220 if peek(1024+x) <> peek(1024+x-1) then poke 55296+x,ca: goto 235
+rem 230 poke 55296+x,cb
+rem 235 next x
+rem 240 let co=ca
+
+
 rem loop through each character in the pattern.
 rem if character has default color then gosub 400
 rem to examine the surrounding characters.
@@ -173,7 +182,7 @@ rem if start of line, then the last color is above the character.
 rem assign new color to position and goto 300 to restart scanning.
 
 800 if x<>0 then goto 809
-801 co = (peek(55296+(y-1)*40+x) and 15)
+801 co = (peek(55296+(y-1)*40+x) and 15): goto 810
 809 co = (peek(55296+y*40+x-1) and 15)
 810 if co = ca then goto 812
 811 co = ca: goto 820
