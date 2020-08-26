@@ -73,15 +73,6 @@ rem set start color on the top left character
 200 let co=ca
 205 poke 55296,co
 
-rem set colors along the first line
-rem 200 poke 55296,ca
-rem 210 for x=1 to dx-1
-rem 220 if peek(1024+x) <> peek(1024+x-1) then poke 55296+x,ca: goto 235
-rem 230 poke 55296+x,cb
-rem 235 next x
-rem 240 let co=ca
-
-
 rem loop through each character in the pattern.
 rem if character has default color then gosub 400
 rem to examine the surrounding characters.
